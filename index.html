@@ -3,25 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <title>Portifólio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap" rel="stylesheet"> 
+    <style>
+        
+        body{
+            font-size: 20px;
+            font-family: 'poppins', sans-serif;
+            background-color:rgb(100, 151, 130);
+            }
+        strong{
+            font-weight: 300;
+            font-family: 'Noto Sans KR', sans-serif;
+            color: rgb(32, 39, 41);
+        }
+        
+        .name{
+            font-family: 'Merriweather Sans', sans-serif;
+            color: rgb(32, 39, 41);
+            text-align: center;
+        }
+
+        .title{
+            font-family: 'Merriweather Sans', sans-serif;
+            color: rgb(32, 39, 41);
+        }
+
+        .profile_pic{
+            border-radius: 15%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .text{
+            color: rgb(45, 56, 58);
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .boton_text{
+           text-decoration: none; 
+           font-weight: 400;
+           color:black;
+           font-family: 'Merriweather Sans', sans-serif;
+           
+        }
+        
+        .hab{
+            font-weight: 800;
+            font-family: 'Noto Sans KR', sans-serif;
+            color: rgb(45, 56, 58);
+        }
+
+        .button{
+            border-radius: 15%;
+        }
+
+    </style>
 </head>
 <body>
-    <h2>Ryan Togneri Laiber</h2>
+    <h1 class="name">Ryan Togneri Laiber</h1>
 
-    <img src="foto_pessoal.jpg" width="300px" alt="Foto de Ryan Togneri Laiber">
+    <img class="profile_pic" src="foto_pessoal.jpg" width="300px" alt="Foto de Ryan Togneri Laiber">
 
-    <p><strong>Brasileiro</strong>, atuamente morando em <strong>Iconha/Espírito Santo</strong>, formado em <em>Engenharia Mecânica</em>, apaixonado por tecnologia e estudante de <strong>Desenvolvimento WEB</strong> pela <a href="https://www.betrybe.com/?utm_medium=cpc&utm_source=google&utm_campaign=Brand&utm_content=ad03_din_h&gclid=Cj0KCQjwpdqDBhCSARIsAEUJ0hOrt7x2sUJ1WWVUl9pFhAloZoJ302b64g04_W2EA9OrL6I0e5dg__0aApKPEALw_wcB" target="_blank"><em>Trybe</em></a>. </p>
+    <p class="text"><strong>Brasileiro</strong>, atuamente morando em <strong>Iconha/Espírito Santo</strong>, formado em <em>Engenharia Mecânica</em>,<br> apaixonado por tecnologia e estudante de <em>Desenvolvimento WEB</em> pela <a class="boton_text" href="https://www.betrybe.com/" target="_blank">Trybe</a>. </p>
     
-    <h3>Habilidades</h3>
+    <h3 class="title">Habilidades em destaque</h3>
 
-    <ul>
+    <ul class="hab">
+        <li>Cominicação</li>
+        <li>Trabalho em equipe</li>
+    </ul>
+
+    <h3 class="title">Habilidades</h3>
+
+    <ul class="hab">
         <li>Python</li>
         <li>Unix & Bash</li>
         <li>Git</li>
         <li>GitHub</li>
     </ul>
 
-    <a href="https://www.linkedin.com/in/ryan-togneri-laiber-41225020b/" target="_blank">__Linkedin__</a><br>
-    <a href="https://github.com/ryanlaiber" target="_blank">__GitHub__</a>
+    <a href="https://www.linkedin.com/in/ryan-togneri-laiber-41225020b/" target="_blank"><img class="button" src="LinkedIn-símbolo.jpg" width="100px" alt="Linkedin."></a>
+    <a href="https://github.com/ryanlaiber" target="_blank"><img class="button" src="github-logo.jpg" width="80px" alt="GitHub"></a>
     
 </body>
 </html>
