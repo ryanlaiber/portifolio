@@ -60,23 +60,23 @@ strong{
 
 .hab{
     font-weight: 800;
-    font-family: 'Noto Sans KR', sans-serif;
-    color: rgb(45, 56, 58);
     text-align: center;
 }
 
 .hab-list{
     list-style: none;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: rgb(45, 56, 58);
 
 }
 
 .button{
-    padding-left: 770px;
+    width: 80%;
     margin-top: 20px;
-}
-
-.button div{
-    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
 }
 
 .button img{
