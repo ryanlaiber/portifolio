@@ -2,6 +2,7 @@ body{
     font-size: 20px;
     font-family: 'poppins', sans-serif;
     background-color:rgb(100, 151, 130);
+    margin: 0px;
     }
 strong{
     font-weight: 300;
@@ -21,16 +22,28 @@ strong{
 }
 
 .profile_pic{
-    border-radius: 15%;
+    border-radius: 50%;
     display: block;
+    margin: auto;
+    width: 300px;
+    right: 50%;
+}
+
+.profile{
+    background-color:rgb(131, 177, 158);
+    border-radius: 15px;
+    width: 80%;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
+    padding: 20px 50px;    
 }
 
 .text{
     color: rgb(45, 56, 58);
     text-align: center;
     font-size: 20px;
+    
 }
 
 .boton_text{
@@ -41,11 +54,32 @@ strong{
    
 }
 
+.habilidades{
+    background: rgb(131, 177, 158) url(hab1.png) 1200px/200px no-repeat;   
+}
+
 .hab{
     font-weight: 800;
     font-family: 'Noto Sans KR', sans-serif;
     color: rgb(45, 56, 58);
+    text-align: center;
 }
+
+.hab-list{
+    list-style: none;
+
+}
+
+/* .img1{
+    width: 200px;
+    position: absolute;
+    right: 100px;
+    top: 650px;
+}
+.img2{
+    width: 100px;
+    position: absolute;
+} */
 
 .button{
     border-radius: 15%;
