@@ -71,5 +71,14 @@ strong{
 }
 
 .button{
+    padding-left: 770px;
+    margin-top: 20px;
+}
+
+.button div{
+    display: inline-block;
+}
+
+.button img{
     border-radius: 15%;
 }
